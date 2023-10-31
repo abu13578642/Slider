@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="container">
+        <i class="fa-solid fa-angle-left" onclick="slidernext(-1)"></i>
+        <i class="fa-solid fa-angle-right" onclick="slidernext(1)"></i>
+        <div class="slider">
+            <h3>1/3</h3>
+            <img src="https://assets.rebelmouse.io/media-library/1968-cadillac-deville-sedan.jpg?id=34764950&width=1200&height=800&quality=90&coordinates=0%2C0%2C0%2C0" alt="Massage">
+            <h1>1 - Slider</h1>
+        </div>
+        <div class="slider">
+            <h3>2/3</h3>
+            <img src="https://anons.uz/media/uploads/2022/07/25/cadillac-celestiq-2.jpg" alt="Massage">
+            <h1>2 - Slider</h1>
+        </div>
+
+        <div class="slider">
+            <h3>3/3</h3>
+            <img src="https://carsweek.ru/upload/iblock/539/qdhbcc72squ6ulh1dlfnpwrychh6f8zv.jpg" alt="Massage">
+            <h1>3 - Slider</h1>
+        </div>
+
+        <div class="lines">
+            <div class="line " onclick="nextBtn(1)"></div>
+            <div class="line active" onclick="nextBtn(2)"></div>
+            <div class="line" onclick="nextBtn(3)"></div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
